@@ -137,7 +137,7 @@ function MostrarDatos(){
     var containerBooks = document.getElementById("tbody");
     let posicion=0;
 
-    onSnapshot(colRef, (snapshot) => {
+        onSnapshot(colRef, (snapshot) => {
         var books = [];
         snapshot.docs.forEach(doc => {
           books.push({ ...doc.data(), id: doc.id })
