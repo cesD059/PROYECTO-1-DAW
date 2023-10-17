@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Libros</title>
+    <link rel="stylesheet" href="css/registro.css">
+</head>
+<body>
+    <input class="page" type="hidden" value="registro">
+    <nav>
+        <div class="nav-container">
+            <input type="text" class="search" placeholder="Buscar">
+            <ul class="nav-links">
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="MisLibros.html">Mis Libros</a></li>
+                <li><a href="registro.html">Registro</a></li>
+                <li><a href="categorias.html">Categoría</a></li>
+            </ul>
+            <button href='bolsadecompra.html'>Bolsa de Compra</button>
+            <button class="Btn_salir">Cerrar Sesión</button>
+        </div>
+    </nav>
+    <h1>Nuevo Libro</h1>
+
+    <form class="form" id="NuevoLibro_Form">
+        <div class="left-section">
+            <div class="form-item">
+                <label for="Nombre">Nombre de Libro:</label>
+                <input type="text" id="Nombre" name="Nombre" placeholder="">
+            </div>
+            <div class="form-item">
+                <label for="autor">Autor:</label>
+                <input type="text" id="autor" name="autor" placeholder="">
+            </div>
+        </div>
+        <div class="right-section">
+            <div class="form-item">
+                <label for="categoria">Categoría:</label>
+                <select id="categoria" name="categoria">
+                    <option value="fantasia">Fantasía</option>
+                    <option value="ciencia_ficcion">Ciencia Ficción</option>
+                    <option value="misterio">Misterio</option>
+                    <option value="romance">Romance</option>
+                    <option value="aventura">Aventura</option>
+                    <option value="historia">Historia</option>
+                    <option value="biografia">Biografía</option>
+                </select>
+            </div>
+            <div class="form-item">
+                <label for="fecha_compra">Fecha de compra:</label>
+                <input type="text" id="fecha_compra" name="fecha_compra" placeholder="">
+            </div>
+        </div>
+        <button>Guardar Información</button>
+    </form>
+    <script src="bundle.js"></script>
+</body>
+</html>
