@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  nav {
+    background-color: #9a61bb;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.nav-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.search {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-right: 10px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos del formulario */
+.form {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.left-section, .right-section {
+    flex: 1;
+}
+
+h2 {
+    margin: 0;
+}
+
+.form-item {
+    margin: 50px 0;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+select{
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #9a61bb;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #9a61bb;
+}
+h1{
+    text-align: center;
+}
+.row{
+    width: 40%;
+    background-color: antiquewhite;
+}
+.boton-enlace {
+    background-color: #8A2BE2; /* Color lila */
+    color: #FFF; /* Color blanco */
+    padding: 9px 6px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .boton-enlace:hover {
+    background-color: #6A1B9A; /* Color lila oscuro al pasar el ratón */
+  }
+  .icono {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  .input-con-logo {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    max-width: 200px;
+    width: 90%;
+  }
+
+  .input-con-logo img {
+    width: 30px;
+    height: auto;
+    padding: 8px;
+    background-color: #8A2BE2; /* Color lila */
+  }
+
+  .input-con-logo input {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    outline: none;
+  }
+  .search{
+    width: 20%;
+    padding: 10px;
+    border: 0px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+  }

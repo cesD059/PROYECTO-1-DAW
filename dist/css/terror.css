@@ -1,0 +1,143 @@
+nav {
+    background-color: #9a61bb;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.nav-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search {
+    padding: 4px;
+    border: none;
+    border-radius: 5px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-right: 10px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+h1 {
+    color: #892be273; /* Color lila */
+    text-align: center;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.imagen {
+    position: relative;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.imagen img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.tarjeta {
+    position: absolute;
+    top: 80%;
+    left: 60%;
+    transform: translate(-80%, -80%);
+    color: #FFF; /* Color blanco */
+    padding: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    background-color: #2d044480; /* Color de fondo blanco */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 400px;
+    width: 100%;
+}
+
+.imagen:hover .tarjeta {
+    opacity: 5;
+    visibility: visible;
+}
+
+.tarjeta h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.tarjeta p {
+    margin: 0px 0;
+    font-size: 14px;
+} 
+  .boton-enlace {
+    display: flex;
+    align-items: center;
+    background-color: #8A2BE2; /* Color lila */
+    color: #FFF; /* Color blanco */
+    padding: 8px;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .boton-enlace:hover {
+    background-color: #6A1B9A; /* Color lila oscuro al pasar el ratón */
+  }
+
+  .icono {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  .input-con-logo {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    max-width: 200px;
+    width: 90%;
+  }
+
+  .input-con-logo img {
+    width: 30px;
+    height: auto;
+    padding: 8px;
+    background-color: #8A2BE2; /* Color lila */
+  }
+
+  .input-con-logo input {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    outline: none;
+  }

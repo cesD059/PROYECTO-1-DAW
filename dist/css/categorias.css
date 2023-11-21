@@ -1,0 +1,109 @@
+nav {
+    background-color: #9a61bb;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.nav-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-right: 10px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .galeria {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    background-color: #fff; /* Color lila */
+  }
+  
+  .imagen {
+    text-align: center;
+    cursor: pointer;
+    color: #9c33cc; /* Color blanco para el texto */
+  }
+  
+  .imagen img {
+    width: 200px;
+    height: 300px;
+    border-radius: 100%;
+  }
+  
+  p {
+    margin: 30px 0;
+  }
+  .boton-enlace {
+    display: flex;
+    align-items: center;
+    background-color: #8A2BE2; /* Color lila */
+    color: #FFF; /* Color blanco */
+    padding: 8px;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .boton-enlace:hover {
+    background-color: #6A1B9A; /* Color lila oscuro al pasar el ratón */
+  }
+
+  .icono {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  .input-con-logo {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    max-width: 200px;
+    width: 90%;
+  }
+
+  .input-con-logo img {
+    width: 30px;
+    height: auto;
+    padding: 8px;
+    background-color: #8A2BE2; /* Color lila */
+  }
+
+  .input-con-logo input {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    outline: none;
+  }

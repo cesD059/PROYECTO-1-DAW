@@ -1,0 +1,91 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #F5F5F5; /* Color de fondo gris claro */
+    }
+
+    nav {
+      background-color: #9a61bb;
+      color: #fff;
+      padding: 30px ;
+  }
+  body {
+      font-family: Arial, sans-serif;
+    }
+  .nav-container {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  
+  .search {
+      padding: 10px;
+      border: none;
+      border-radius: 10px;
+  }
+  
+  .nav-links {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+  }
+  
+  .nav-links li {
+      margin-right: 10px;
+  }
+  
+  .nav-links a {
+      color: #fff;
+      text-decoration: none;
+  }
+  .boton-enlace {
+    background-color: #8A2BE2; /* Color lila */
+    color: #FFF; /* Color blanco */
+    padding: 9px 6px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .boton-enlace:hover {
+    background-color: #6A1B9A; /* Color lila oscuro al pasar el ratón */
+  }
+  .icono {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  .input-con-logo {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    max-width: 200px;
+    width: 90%;
+  }
+
+  .input-con-logo img {
+    width: 30px;
+    height: auto;
+    padding: 8px;
+    background-color: #8A2BE2; /* Color lila */
+  }
+
+  .input-con-logo input {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    outline: none;
+  }  
